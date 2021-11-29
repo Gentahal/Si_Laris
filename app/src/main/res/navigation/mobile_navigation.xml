@@ -22,9 +22,4 @@
         android:name="com.example.silaris.ui.TrolliFragment"
         android:label="Setting"
         tools:layout="@layout/fragment_trolli"/>
-    <fragment
-        android:id="@+id/profileFragment"
-        android:name="com.example.silaris.ui.ProfileFragment"
-        android:label="fragment_profile"
-        tools:layout="@layout/fragment_profile" />
 </navigation>
