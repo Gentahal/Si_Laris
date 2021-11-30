@@ -19,15 +19,11 @@ class MainActivity : AppCompatActivity(){
 
     private lateinit var binding : ActivityMainBinding
 
-//    private lateinit var recyclerView: RecyclerView
-//    private lateinit var photoAdapter: ImageAdapter
-//    private var dataList = mutableListOf<ImageData>()
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         supportActionBar?.hide()
 
         var navView : BottomNavigationView = binding.navView
@@ -44,20 +40,6 @@ class MainActivity : AppCompatActivity(){
 
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
-
-//        recyclerView = findViewById(R.id.recycle_item)
-//        recyclerView.layoutManager = GridLayoutManager(applicationContext, 2)
-//        photoAdapter = ImageAdapter(applicationContext)
-//        recyclerView.adapter = photoAdapter
-//
-//        dataList.add(ImageData("Baju Sweater Perempuan ", "Rp125.000", R.drawable.img_item1))
-//        dataList.add(ImageData("Title", "Desc", R.drawable.img_item2))
-//        dataList.add(ImageData("Title", "Desc", R.drawable.img_item3))
-//        dataList.add(ImageData("Kaos Putih Polos Oversize", "Rp250.000", R.drawable.img_item4))
-//        dataList.add(ImageData("Hoodie hitam bahan halus ORIGINAL", "Rp150.000", R.drawable.img_item5))
-//
-//        photoAdapter.setDataList(dataList)
-
     }
 
 }
