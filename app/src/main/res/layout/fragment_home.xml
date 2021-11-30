@@ -73,11 +73,11 @@
 
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle_item"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="230dp"
-            android:id="@+id/recycle_item"
-            tools:listitem="@layout/grid_item"/>
+            tools:listitem="@layout/grid_item" />
 
     </RelativeLayout>
 
