@@ -1,13 +1,10 @@
 <resources>
     <string name="app_name">Si Laris</string>
 
-    <string name="txt_home">Home</string>
-    <string name="txt_trolli">Trolli</string>
-    <string name="txt_notification">Notification</string>
+    <string name="txt_home">Beranda</string>
+    <string name="txt_trolli">Keranjang</string>
+    <string name="txt_notification">Notifikasi</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="setting">Setting</string>
-    <string name="notification">Notification</string>
-    <string name="home">Home</string>
-    <string name="profile">Profile</string>
+    <string name="profile">Profil</string>
 </resources>

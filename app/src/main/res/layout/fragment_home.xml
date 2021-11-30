@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.HomeFragment">
+    tools:context=".ui.HomeFragment"
+    android:background="@color/gray">
 
 
     <RelativeLayout
@@ -72,11 +73,22 @@
         </com.google.android.material.textfield.TextInputLayout>
 
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"
+            android:text="Barang Sepesial"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycle_item"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="230dp"
+            android:layout_marginTop="240dp"
             tools:listitem="@layout/grid_item" />
 
     </RelativeLayout>
