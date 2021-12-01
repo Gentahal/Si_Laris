@@ -9,16 +9,14 @@
         <entry key="..\:/Users/Abdi Rabbani/AndroidStudioProjects/SiLaris/app/src/main/res/drawable/ic_trolli.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/Abdi Rabbani/AndroidStudioProjects/SiLaris/app/src/main/res/layout/activity_detail.xml" value="0.134375" />
         <entry key="..\:/Users/Abdi Rabbani/AndroidStudioProjects/SiLaris/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/Abdi Rabbani/AndroidStudioProjects/SiLaris/app/src/main/res/layout/activity_notif.xml" value="0.19701086956521738" />
         <entry key="..\:/Users/Abdi Rabbani/AndroidStudioProjects/SiLaris/app/src/main/res/layout/activity_splash_screen.xml" value="0.13333333333333333" />
         <entry key="..\:/Users/Abdi Rabbani/AndroidStudioProjects/SiLaris/app/src/main/res/layout/fragment_detail.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Abdi Rabbani/AndroidStudioProjects/SiLaris/app/src/main/res/layout/fragment_home.xml" value="0.11479591836734694" />
-        <entry key="..\:/Users/Abdi Rabbani/AndroidStudioProjects/SiLaris/app/src/main/res/layout/fragment_notif.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Abdi Rabbani/AndroidStudioProjects/SiLaris/app/src/main/res/layout/fragment_notif.xml" value="0.1" />
         <entry key="..\:/Users/Abdi Rabbani/AndroidStudioProjects/SiLaris/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
         <entry key="..\:/Users/Abdi Rabbani/AndroidStudioProjects/SiLaris/app/src/main/res/layout/fragment_setting.xml" value="0.1" />
         <entry key="..\:/Users/Abdi Rabbani/AndroidStudioProjects/SiLaris/app/src/main/res/layout/fragment_trolli.xml" value="0.22" />
         <entry key="..\:/Users/Abdi Rabbani/AndroidStudioProjects/SiLaris/app/src/main/res/layout/grid_item.xml" value="0.16168478260869565" />
-        <entry key="..\:/Users/Abdi Rabbani/AndroidStudioProjects/SiLaris/app/src/main/res/layout/grid_item_notif.xml" value="0.22" />
         <entry key="..\:/Users/Abdi Rabbani/AndroidStudioProjects/SiLaris/app/src/main/res/menu/bottom_nav_menu.xml" value="0.22" />
         <entry key="app/src/main/res/drawable/bg_splash_screen.xml" value="0.175" />
         <entry key="app/src/main/res/drawable/ic_add_box.xml" value="0.16510416666666666" />
@@ -28,11 +26,11 @@
         <entry key="app/src/main/res/drawable/ic_seafood.xml" value="0.16510416666666666" />
         <entry key="app/src/main/res/drawable/ic_trolli.xml" value="0.16510416666666666" />
         <entry key="app/src/main/res/layout/activity_detail.xml" value="0.165" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.125" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.13425925925925927" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.13425925925925927" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1262693156732892" />
         <entry key="app/src/main/res/layout/fragment_notif.xml" value="0.14895833333333333" />
-        <entry key="app/src/main/res/layout/fragment_trolli.xml" value="0.13425925925925927" />
+        <entry key="app/src/main/res/layout/fragment_trolli.xml" value="0.165" />
         <entry key="app/src/main/res/layout/grid_item.xml" value="0.13425925925925927" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.13425925925925927" />
       </map>

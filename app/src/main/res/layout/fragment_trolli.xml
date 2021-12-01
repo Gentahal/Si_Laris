@@ -11,14 +11,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/txt_trolli"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="50sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/txt_trolli"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            android:textStyle="bold"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -43,34 +44,36 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:text="Hoodie black XVL"
+            android:text="Jas kulit pria"
             android:textColor="@color/black"
+            android:textStyle="bold"
             android:textSize="20sp" />
 
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="300dp">
-
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/img_item4" />
-
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:text="Hoodie black XVL"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="300dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/img_item4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Jaket Jeans wanita"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp" />
 
 
-    </LinearLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -88,6 +91,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:text="Hoodie black XVL"
+                android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -109,7 +113,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:text="Hoodie black XVL"
+                android:text="Crewneck motif belang"
+                android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -139,12 +144,12 @@
             android:text="Beli Sekarang"
             android:textStyle="bold" />
 
-    <ImageView
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:src="@drawable/ic_baseline_indeterminate_check_box_24"
-        android:layout_marginTop="190dp"
-        android:layout_marginLeft="128dp"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="190dp"
+            android:src="@drawable/ic_baseline_indeterminate_check_box_24" />
 
     <TextView
         android:layout_width="match_parent"
@@ -161,6 +166,98 @@
         android:src="@drawable/ic_add_box"
         android:layout_marginTop="190dp"
         android:layout_marginLeft="215dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="340dp"
+            android:src="@drawable/ic_baseline_indeterminate_check_box_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="340dp"
+            android:layout_marginLeft="180dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_add_box"
+            android:layout_marginTop="340dp"
+            android:layout_marginLeft="215dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="490dp"
+            android:src="@drawable/ic_baseline_indeterminate_check_box_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="490dp"
+            android:layout_marginLeft="180dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_add_box"
+            android:layout_marginTop="490dp"
+            android:layout_marginLeft="215dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="628dp"
+            android:src="@drawable/ic_baseline_indeterminate_check_box_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="628dp"
+            android:layout_marginLeft="180dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_add_box"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="215dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="190dp"
+            android:src="@drawable/ic_baseline_indeterminate_check_box_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="180dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="627dp"
+            android:src="@drawable/ic_add_box" />
 
     </RelativeLayout>
 

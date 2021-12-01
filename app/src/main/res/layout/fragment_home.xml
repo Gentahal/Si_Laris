@@ -78,7 +78,24 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="200dp"
-            android:text="Barang Sepesial"
+            android:text="Rekomendasi"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/banner"
+            android:layout_marginTop="250dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="430dp"
+            android:text="Barang spesial"
             android:textColor="@color/black"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -88,9 +105,13 @@
             android:id="@+id/recycle_item"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="240dp"
+            android:layout_marginTop="480dp"
             tools:listitem="@layout/grid_item" />
 
+
+
+
     </RelativeLayout>
+
 
 </androidx.core.widget.NestedScrollView>
