@@ -18,14 +18,13 @@ class DetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        setSupportActionBar(binding.toolbarDetail)
 
-        //untuk menampilkan tombol back
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         val dataBaju = intent.getParcelableExtra<Baju>(BAJU_DATA) as Baju
 
-        Glide.with(this).load(dataBaju.gambar).into(binding.imgItem)
+       // Glide.with(this).load(dataBaju.gambar).into(binding.imgItem)
+        binding.imgItem.setImageResource(dataBaju.gambar!!)
 
         binding.apply {
             textItemDetail.text = dataBaju.detail
