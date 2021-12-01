@@ -10,13 +10,13 @@
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
-        android:id="@+id/navigation_notification"
-        android:name="com.example.silaris.ui.NotifFragment"
-        android:label="fragment_notif"
-        tools:layout="@layout/fragment_notif" />
-    <fragment
         android:id="@+id/navigation_setting"
         android:name="com.example.silaris.ui.TrolliFragment"
         android:label="fragment_trolli"
         tools:layout="@layout/fragment_trolli" />
+    <fragment
+        android:id="@+id/navigation_notification"
+        android:name="com.example.silaris.ui.NotifFragment"
+        android:label="fragment_notif"
+        tools:layout="@layout/fragment_notif" />
 </navigation>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="20dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nt_person"
+        android:id="@+id/img_item_notif1"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/text_item_judul_notif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kontak Dan Teman"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="belum ada notifikasi"
+            android:layout_marginTop="40dp"
+            android:textSize="15sp"
+            android:id="@+id/text_item_detail_notif"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:src="@drawable/ic_navigate_next"
+        android:layout_marginLeft="50dp"/>
+
+</LinearLayout>
