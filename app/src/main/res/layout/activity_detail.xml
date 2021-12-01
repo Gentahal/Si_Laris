@@ -56,24 +56,40 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="450dp"
-        android:layout_marginLeft="15dp">
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="450dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="Harga"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_item_harga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:text="Harga Barang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
             android:text="Detail Barang"
             android:textColor="@color/black"
-            android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/text_item_detail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="desc"
-            android:layout_marginTop="30dp"
-            android:textColor="@color/black"
-            android:id="@+id/text_item_detail"/>
+            android:layout_marginTop="102dp"
+            android:text="Desc"
+            android:textColor="@color/black" />
 
 
     </FrameLayout>
