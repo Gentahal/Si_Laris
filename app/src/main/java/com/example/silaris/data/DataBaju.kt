@@ -4,7 +4,7 @@ import com.example.silaris.R
 
 object DataBaju {
     val namaBarang = arrayOf(
-        "Sweater Plus Rok pendek",
+        "Sweater Lembut",
         "Crewneck pria motif",
         "Hoodie blck XVL",
         "Jaket jeans",

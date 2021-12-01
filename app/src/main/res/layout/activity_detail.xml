@@ -7,14 +7,16 @@
     android:background="@color/gray"
     tools:context=".ui.DetailActivity">
 
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar_detail"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_collapseMode="pin" />
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardCornerRadius="20dp">
 
             <ImageView
                 android:id="@+id/img_item"
@@ -25,24 +27,16 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/img_item1" />
 
-            <TextView
-                android:id="@+id/text_item_judul"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="300dp"
-                android:text="Tittle"
-                android:textColor="@color/white"
-                android:textSize="50sp" />
-
-        </androidx.cardview.widget.CardView>
-
-        <com.google.android.material.appbar.MaterialToolbar
-            android:id="@+id/toolbar_detail"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:theme="?attr/actionBarTheme"
-            app:layout_collapseMode="pin" />
+        <TextView
+            android:id="@+id/text_item_judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="340dp"
+            android:text="Tittle"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
 
     </FrameLayout>
 
@@ -50,7 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
-        android:layout_marginTop="450dp">
+        android:layout_marginTop="410dp">
 
         <ImageView
             android:layout_width="wrap_content"

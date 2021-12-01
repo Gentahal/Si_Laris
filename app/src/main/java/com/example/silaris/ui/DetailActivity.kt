@@ -22,8 +22,7 @@ class DetailActivity : AppCompatActivity() {
 
         val dataBaju = intent.getParcelableExtra<Baju>(BAJU_DATA) as Baju
 
-        Glide.with(this).load(dataBaju.gambar).into(binding.imgItem)
-
+        binding.imgItem.setImageResource(dataBaju.gambar!!)
         binding.apply {
             textItemJudul.text = dataBaju.nama
             textItemDetail.text = dataBaju.detail
