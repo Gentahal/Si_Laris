@@ -24,12 +24,7 @@ class NotifAdapter(private val listNotif: ArrayList<Notif>) :
             with(listNotif[position]) {
                 textItemJudulNotif.text = notif
                 textItemDetailNotif.text = desc
-//                Glide.with(imgItemNotif.context).load(gambar).into(imgItemNotif)
-                holder.itemView.setOnClickListener {
-                    val intent = Intent(it.context, com.example.silaris.ui.DetailActivity::class.java)
-                    intent.putExtra(com.example.silaris.ui.NotifFragment.NOTIF_DATA, listNotif[position])
-                    it.context.startActivity(intent)
-                }
+                Glide.with(imgItemNotif.context).load(gambar).into(imgItemNotif)
             }
         }
     }

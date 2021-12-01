@@ -10,7 +10,10 @@ object DataNotif {
         "Feed dan Live",
         "Shoping Pay",
         "Info Shoping",
-        "Shoping Games"
+        "Shoping Games",
+        "Toko JakartaHobby",
+        "Toko baju Bu ella",
+        "Toko Dekor natal"
     )
 
     val descNotif = arrayListOf(
@@ -19,7 +22,10 @@ object DataNotif {
         "Cari Live di sini ..",
         "Gunakan kode ini d..",
         "Dikon 11.11 buruan..",
-        "Ada ribuan Voucher.."
+        "Ada ribuan Voucher..",
+        "Ready Gan..",
+        "Ada kak ukuran XL",
+        "Panjang lampunya k.."
     )
 
     var gambarNotif = arrayListOf(
@@ -28,7 +34,10 @@ object DataNotif {
         R.drawable.nt_feed,
         R.drawable.nt_wallet,
         R.drawable.nt_discount,
-        R.drawable.nt_game
+        R.drawable.nt_game,
+        R.drawable.nt_chat,
+        R.drawable.nt_chat,
+        R.drawable.nt_chat
     )
 
     val listNotif: ArrayList<Notif>
