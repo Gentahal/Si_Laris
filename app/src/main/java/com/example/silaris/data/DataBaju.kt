@@ -4,7 +4,7 @@ import com.example.silaris.R
 
 object DataBaju {
     val namaBarang = arrayOf(
-        "Baju anak perempuan",
+        "Sweater Plus Rok pendek",
         "Crewneck pria motif",
         "Hoodie blck XVL",
         "Jaket jeans",
@@ -17,7 +17,7 @@ object DataBaju {
     )
 
     val hargaBarang = arrayOf(
-        "Rp 30.000",
+        "Rp 250.000",
         "Rp 150.000",
         "Rp 300.000",
         "RP 350.000",
