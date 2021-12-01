@@ -1,6 +1,7 @@
 package com.example.silaris
 
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -12,10 +13,12 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.silaris.databinding.ActivityMainBinding
+import com.example.silaris.ui.DetailActivity
+import com.example.silaris.ui.TrolliFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
-class MainActivity : AppCompatActivity(){
+class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private lateinit var binding : ActivityMainBinding
 
@@ -30,6 +33,7 @@ class MainActivity : AppCompatActivity(){
 
         val navController = findNavController(R.id.nav_host_fragment_activity_main)
 
+
         val appBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.navigation_home,
@@ -42,4 +46,9 @@ class MainActivity : AppCompatActivity(){
         navView.setupWithNavController(navController)
     }
 
+    override fun onClick(p0: View?) {
+        TODO("Not yet implemented")
+    }
+
 }
+
