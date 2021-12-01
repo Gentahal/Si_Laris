@@ -1,11 +1,12 @@
-package com.example.silaris.ui
-
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import com.bumptech.glide.Glide
-import com.example.silaris.R
-import com.example.silaris.databinding.ActivityDetailBinding
-
+//package com.example.silaris.ui
+//
+//import androidx.appcompat.app.AppCompatActivity
+//import android.os.Bundle
+//import com.bumptech.glide.Glide
+//import com.example.silaris.R
+//import com.example.silaris.data.Baju
+//import com.example.silaris.databinding.ActivityDetailBinding
+//
 //class DetailActivity : AppCompatActivity() {
 //
 //    //view Binding
@@ -20,7 +21,7 @@ import com.example.silaris.databinding.ActivityDetailBinding
 //        //untuk menampilkan tombol back
 //        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 //
-//        val dataRecipes = intent.getParcelableExtra<Recipes>(RECIPES_DATA) as Recipes
+//        val dataRecipes = intent.getParcelableExtra<Baju>(BAJU_DATA) as Baju
 //
 //        Glide.with(this).load(dataRecipes.photo).into(binding.imgDetail)
 //
@@ -36,7 +37,7 @@ import com.example.silaris.databinding.ActivityDetailBinding
 //    }
 //
 //    companion object {
-//        const val RECIPES_DATA = "recipes"
+//        const val BAJU_DATA = "recipes"
 //    }
 //
 //    override fun onSupportNavigateUp(): Boolean {
