@@ -10,8 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SiLaris">
         <activity
+            android:name=".ui.ProfileActivity"
+            android:exported="true" />
+        <activity
             android:name=".ui.DetailActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.SiLaris.NoActionBro" />
         <activity
             android:name=".SplashScreenActivity"
             android:exported="true"

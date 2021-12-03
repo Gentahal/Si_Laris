@@ -3,6 +3,7 @@ package com.example.silaris.ui
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.bumptech.glide.Glide
+import com.example.silaris.R
 import com.example.silaris.data.Baju
 import com.example.silaris.databinding.ActivityDetailBinding
 
@@ -18,6 +19,8 @@ class DetailActivity : AppCompatActivity() {
 
         //untuk menampilkan tombol back
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+        supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_baseline_arrow_back_ios_24)
 
         val dataBaju = intent.getParcelableExtra<Baju>(BAJU_DATA) as Baju
 

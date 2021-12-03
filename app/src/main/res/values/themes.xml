@@ -22,4 +22,7 @@
 
     </style>
 
+    <style name="Theme.SiLaris.NoActionBro" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    </style>
+
 </resources>

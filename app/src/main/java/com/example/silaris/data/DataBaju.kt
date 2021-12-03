@@ -77,7 +77,7 @@ object DataBaju {
         "Toko Jas Kulit ori",
         "New Trend Shoping",
         "Toko Jas Kulit ori"
-        )
+    )
 
     val gambarToko = arrayListOf(
         R.drawable.ic_shop,

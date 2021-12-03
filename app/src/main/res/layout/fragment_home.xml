@@ -33,11 +33,11 @@
             android:layout_marginTop="20dp"
             android:src="@drawable/hand" />
 
-        <de.hdodenhof.circleimageview.CircleImageView
+        <ImageButton
             android:id="@+id/profile_btn"
             android:layout_width="56dp"
             android:layout_height="56dp"
-            android:layout_marginLeft="350dp"
+            android:layout_marginLeft="330dp"
             android:layout_marginTop="10dp"
             android:src="@drawable/profile" />
 
