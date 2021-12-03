@@ -9,5 +9,7 @@ data class Baju(
     var nama: String?,
     var harga: String?,
     var detail: String?,
-    var gambar: Int?
+    var gambar: Int?,
+    var toko: String,
+    var gambarToko: Int?
 ) : Parcelable

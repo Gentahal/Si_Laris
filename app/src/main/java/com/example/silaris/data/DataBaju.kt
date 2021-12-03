@@ -68,7 +68,29 @@ object DataBaju {
 
     val namaToko = arrayListOf(
         "Toko baju Bu Ella",
-        ""
+        "Toko baju Bu Ella",
+        "Toko JakartaHobby",
+        "New Trend Shoping",
+        "Toko baju Bu Ella",
+        "Toko Jas Kulit ori",
+        "Toko JakartaHobby",
+        "Toko Jas Kulit ori",
+        "New Trend Shoping",
+        "Toko Jas Kulit ori"
+        )
+
+    val gambarToko = arrayListOf(
+        R.drawable.ic_shop,
+        R.drawable.ic_shop,
+        R.drawable.ic_shop,
+        R.drawable.ic_shop,
+        R.drawable.ic_shop,
+        R.drawable.ic_shop,
+        R.drawable.ic_shop,
+        R.drawable.ic_shop,
+        R.drawable.ic_shop,
+        R.drawable.ic_shop
+
     )
 
 
@@ -80,7 +102,9 @@ object DataBaju {
                     nama = namaBarang[position],
                     harga = hargaBarang[position],
                     detail = detailBarang[position],
-                    gambar = gambarBarang[position]
+                    gambar = gambarBarang[position],
+                    toko = namaToko[position],
+                    gambarToko = gambarToko[position]
                 )
                 listBaju.add(baju)
             }

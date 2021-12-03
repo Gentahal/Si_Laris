@@ -22,10 +22,12 @@ class DetailActivity : AppCompatActivity() {
         val dataBaju = intent.getParcelableExtra<Baju>(BAJU_DATA) as Baju
 
         binding.imgItem.setImageResource(dataBaju.gambar!!)
+        binding.imgItemToko.setImageResource(dataBaju.gambarToko!!)
         binding.apply {
             textItemJudul.text = dataBaju.nama
             textItemDetail.text = dataBaju.detail
             textItemHarga.text = dataBaju.harga
+            textItemToko.text = dataBaju.toko
         }
     }
 
