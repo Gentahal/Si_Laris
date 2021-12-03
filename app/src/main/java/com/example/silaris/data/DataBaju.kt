@@ -66,6 +66,11 @@ object DataBaju {
 
         )
 
+    val namaToko = arrayListOf(
+        "Toko baju Bu Ella",
+        ""
+    )
+
 
     val listBaju: ArrayList<Baju>
         get() {
