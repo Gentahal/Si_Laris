@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SiLaris">
         <activity
-            android:name=".ui.NotifActivity"
-            android:exported="false" />
-        <activity
             android:name=".ui.DetailActivity"
             android:exported="false" />
         <activity
