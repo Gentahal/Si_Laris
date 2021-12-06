@@ -12,4 +12,5 @@
     <color name="gray">#EDEDED</color>
     <color name="yellow">#FFEB3B</color>
     <color name="orange">#FF9800</color>
+    <color name="transparent">#00000000</color>
 </resources>

@@ -1,8 +1,12 @@
 package com.example.silaris.ui
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.ImageButton
 import com.bumptech.glide.Glide
+import com.example.silaris.MainActivity
 import com.example.silaris.R
 import com.example.silaris.data.Baju
 import com.example.silaris.databinding.ActivityDetailBinding
@@ -17,10 +21,11 @@ class DetailActivity : AppCompatActivity() {
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        val btnBack: ImageButton = findViewById(R.id.btn_back_detail)
+        btnBack.setOnClickListener(this)
+
         //untuk menampilkan tombol back
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-
-        supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_baseline_arrow_back_ios_24)
 
         val dataBaju = intent.getParcelableExtra<Baju>(BAJU_DATA) as Baju
 
@@ -34,12 +39,24 @@ class DetailActivity : AppCompatActivity() {
         }
     }
 
+    override fun onClick(v: View?){
+        when(v?.id){
+            R.id.btn_back_detail -> {
+                val moveIntent = Intent(this@DetailActivity,MainActivity::class.java)
+                startActivity(moveIntent)
+            }
+        }
+    }
+
     companion object {
         const val BAJU_DATA = "Baju"
     }
+
+    
 
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return super.onSupportNavigateUp()
     }
+
 }

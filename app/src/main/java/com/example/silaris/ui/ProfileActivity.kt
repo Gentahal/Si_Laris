@@ -11,11 +11,12 @@ import com.example.silaris.databinding.ActivityDetailBinding
 
 class ProfileActivity : AppCompatActivity(), View.OnClickListener {
 
-    private var _binding:ActivityDetailBinding? = null
+    private var _binding: ActivityDetailBinding? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile)
+        supportActionBar?.hide()
 
         val btnBack: ImageButton = findViewById(R.id.btn_back)
         btnBack.setOnClickListener(this)
