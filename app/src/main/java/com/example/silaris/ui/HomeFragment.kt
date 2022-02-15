@@ -13,7 +13,6 @@ import com.example.silaris.adapter.BajuAdapter
 import com.example.silaris.data.Baju
 import com.example.silaris.data.DataBaju
 import com.example.silaris.databinding.FragmentHomeBinding
-import com.example.silaris.databinding.GridItemBinding
 
 class HomeFragment : Fragment() {
 
@@ -38,4 +37,5 @@ class HomeFragment : Fragment() {
         super.onDestroyView()
         _binding = null
     }
+
 }

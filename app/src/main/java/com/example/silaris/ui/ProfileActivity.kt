@@ -7,11 +7,11 @@ import android.view.View
 import android.widget.ImageButton
 import com.example.silaris.MainActivity
 import com.example.silaris.R
-import com.example.silaris.databinding.ActivityDetailBinding
+import com.example.silaris.databinding.ActivityProfileBinding
 
 class ProfileActivity : AppCompatActivity(), View.OnClickListener {
 
-    private var _binding: ActivityDetailBinding? = null
+    private var _binding: ActivityProfileBinding? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,6 +20,7 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
 
         val btnBack: ImageButton = findViewById(R.id.btn_back)
         btnBack.setOnClickListener(this)
+
     }
 
     override fun onClick(v: View?){

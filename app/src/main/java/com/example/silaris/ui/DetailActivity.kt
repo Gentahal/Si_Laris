@@ -21,9 +21,6 @@ class DetailActivity : AppCompatActivity() {
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val btnBack: ImageButton = findViewById(R.id.btn_back_detail)
-        btnBack.setOnClickListener(this)
-
         //untuk menampilkan tombol back
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
@@ -36,15 +33,6 @@ class DetailActivity : AppCompatActivity() {
             textItemDetail.text = dataBaju.detail
             textItemHarga.text = dataBaju.harga
             textItemToko.text = dataBaju.toko
-        }
-    }
-
-    override fun onClick(v: View?){
-        when(v?.id){
-            R.id.btn_back_detail -> {
-                val moveIntent = Intent(this@DetailActivity,MainActivity::class.java)
-                startActivity(moveIntent)
-            }
         }
     }
 

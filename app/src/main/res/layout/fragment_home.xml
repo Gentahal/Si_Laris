@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.HomeFragment"
-    android:background="@color/gray">
+    android:background="@color/gray"
+    tools:context=".ui.HomeFragment">
 
 
     <RelativeLayout
@@ -39,7 +39,7 @@
             android:layout_height="56dp"
             android:layout_marginLeft="330dp"
             android:layout_marginTop="10dp"
-            android:src="@drawable/profile" />
+            android:src="@drawable/profile2" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -86,9 +86,9 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:src="@drawable/banner"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="250dp"
-            android:layout_centerHorizontal="true"/>
+            android:src="@drawable/banner" />
 
         <TextView
             android:layout_width="match_parent"
@@ -107,9 +107,6 @@
             android:layout_height="match_parent"
             android:layout_marginTop="480dp"
             tools:listitem="@layout/grid_item" />
-
-
-
 
     </RelativeLayout>
 
