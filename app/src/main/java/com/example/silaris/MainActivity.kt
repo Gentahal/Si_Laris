@@ -24,6 +24,9 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
+    private var backPressedTime:Long = 0
+    lateinit var backToast: Toast
+
     private lateinit var binding : ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -60,6 +63,18 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 startActivity(moveIntent)
             }
         }
+    }
+
+    override fun onBackPressed() {
+        backToast = Toast.makeText(this, "Press again to quit.", Toast.LENGTH_LONG)
+        if (backPressedTime + 2000 > System.currentTimeMillis()) {
+            backToast.cancel()
+            super.onBackPressed()
+            return
+        } else {
+            backToast.show()
+        }
+        backPressedTime = System.currentTimeMillis()
     }
 
 }
