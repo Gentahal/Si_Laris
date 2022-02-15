@@ -1,265 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ui.TrolliFragment"
-    android:background="@color/gray">
+    android:background="@color/gray"
+    tools:context=".ui.TrolliFragment">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Keranjang"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="@string/txt_trolli"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="50sp"
-            android:textStyle="bold"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="75dp"
-            android:text="4 Items"
-            android:textAlignment="center"
-            android:textSize="30sp" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="150dp">
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/judul">
 
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/img_item5" />
+            android:id="@+id/iv_1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/img_item3" />
 
         <TextView
-            android:layout_width="match_parent"
+            android:id="@+id/text_barang"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:text="Jas kulit pria"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:textSize="20sp" />
-
-
-    </LinearLayout>
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/iv_1"
+            android:text="Hoodie Black XVL"
+            android:textColor="@color/black" />
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="300dp">
+            android:layout_below="@+id/text_barang"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/iv_1">
+
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src="@drawable/img_item4" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_indeterminate_check_box_24"
+                android:id="@+id/min_btn"/>
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Jaket Jeans wanita"
+                android:layout_marginHorizontal="10dp"
+                android:text="1"
                 android:textColor="@color/black"
-                android:textStyle="bold"
-                android:textSize="20sp" />
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="450dp">
+                android:id="@+id/number_trolli"/>
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src="@drawable/img_item3" />
-
-            <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Hoodie black XVL"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:textSize="20sp" />
-
+                android:src="@drawable/ic_add_box"
+                android:id="@+id/add_btn"/>
 
         </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="590dp">
-
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src="@drawable/img_item2" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Crewneck motif belang"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:textSize="20sp" />
-
-
-        </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="150dp">
-
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/img_item5" />
-
-
-    </LinearLayout>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="710dp"
-            android:layout_marginEnd="16dp"
-            android:text="Beli Sekarang"
-            android:textStyle="bold" />
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="128dp"
-            android:layout_marginTop="190dp"
-            android:src="@drawable/ic_baseline_indeterminate_check_box_24" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="1"
-        android:textSize="24sp"
-        android:textColor="@color/black"
-        android:layout_marginTop="190dp"
-        android:layout_marginLeft="180dp"/>
-
-    <ImageView
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:src="@drawable/ic_add_box"
-        android:layout_marginTop="190dp"
-        android:layout_marginLeft="215dp"/>
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="128dp"
-            android:layout_marginTop="340dp"
-            android:src="@drawable/ic_baseline_indeterminate_check_box_24" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="1"
-            android:textSize="24sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="340dp"
-            android:layout_marginLeft="180dp"/>
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@drawable/ic_add_box"
-            android:layout_marginTop="340dp"
-            android:layout_marginLeft="215dp"/>
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="128dp"
-            android:layout_marginTop="490dp"
-            android:src="@drawable/ic_baseline_indeterminate_check_box_24" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="1"
-            android:textSize="24sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="490dp"
-            android:layout_marginLeft="180dp"/>
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@drawable/ic_add_box"
-            android:layout_marginTop="490dp"
-            android:layout_marginLeft="215dp"/>
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="128dp"
-            android:layout_marginTop="628dp"
-            android:src="@drawable/ic_baseline_indeterminate_check_box_24" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="1"
-            android:textSize="24sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="628dp"
-            android:layout_marginLeft="180dp"/>
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@drawable/ic_add_box"
-            android:layout_marginTop="190dp"
-            android:layout_marginLeft="215dp"/>
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="128dp"
-            android:layout_marginTop="190dp"
-            android:src="@drawable/ic_baseline_indeterminate_check_box_24" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="1"
-            android:textSize="24sp"
-            android:textColor="@color/black"
-            android:layout_marginTop="190dp"
-            android:layout_marginLeft="180dp"/>
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="215dp"
-            android:layout_marginTop="627dp"
-            android:src="@drawable/ic_add_box" />
 
     </RelativeLayout>
 
 
-</androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
