@@ -22,22 +22,6 @@ class TrolliFragment : Fragment() {
         // Inflate the layout for this fragment
         _binding = FragmentTrolliBinding.inflate(layoutInflater, container, false)
         return binding.root
-
-
-//        binding.addBtn.setOnClickListener {
-//            var i = binding.numberTrolli.text.toString()
-//            var a = 0
-//            while (i < i + 1){
-//                a += i
-//                i++
-//                if (a == i + 1){
-//                    break
-//                }
-//
-//
-//            }
-//        }
-
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -49,7 +33,4 @@ class TrolliFragment : Fragment() {
             binding.numberTrolli.text = (binding.numberTrolli.text.toString().toInt()-1).toString()
         }
     }
-
-
-
 }
