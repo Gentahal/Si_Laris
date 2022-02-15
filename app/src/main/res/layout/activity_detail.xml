@@ -104,10 +104,11 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/desc"
+            android:layout_below="@id/desc"
             android:layout_marginStart="16dp"
             android:layout_marginTop="50dp"
-            android:layout_marginEnd="16dp">
+            android:layout_marginEnd="16dp"
+            android:id="@+id/toko">
 
             <ImageView
                 android:id="@+id/img_item_toko"
@@ -126,17 +127,17 @@
 
 
         </RelativeLayout>
-
         <Button
             android:id="@+id/btn_detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="710dp"
+            android:layout_marginTop="70dp"
             android:layout_marginEnd="16dp"
             android:background="@color/purple_700"
             android:text="Tambah ke keranjang"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_below="@id/toko"/>
 
     </RelativeLayout>
 
