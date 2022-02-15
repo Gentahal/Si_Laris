@@ -34,13 +34,15 @@ class DetailActivity : AppCompatActivity() {
             textItemHarga.text = dataBaju.harga
             textItemToko.text = dataBaju.toko
         }
+        binding.btnBackDetail.setOnClickListener {
+            finish()
+        }
     }
 
     companion object {
         const val BAJU_DATA = "Baju"
     }
 
-    
 
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()

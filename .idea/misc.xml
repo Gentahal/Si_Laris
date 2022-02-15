@@ -18,8 +18,14 @@
         <entry key="..\:/Users/Abdi Rabbani/AndroidStudioProjects/SiLaris/app/src/main/res/layout/fragment_trolli.xml" value="0.22" />
         <entry key="..\:/Users/Abdi Rabbani/AndroidStudioProjects/SiLaris/app/src/main/res/layout/grid_item.xml" value="0.16168478260869565" />
         <entry key="..\:/Users/Abdi Rabbani/AndroidStudioProjects/SiLaris/app/src/main/res/menu/bottom_nav_menu.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_detail.xml" value="0.24864130434782608" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.24864130434782608" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.24864130434782608" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.24864130434782608" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.24864130434782608" />
+        <entry key="app/src/main/res/layout/grid_item.xml" value="0.24864130434782608" />
+        <entry key="app/src/main/res/layout/grid_item_notif.xml" value="0.24864130434782608" />
       </map>
     </option>
   </component>
