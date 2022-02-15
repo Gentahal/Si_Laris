@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onBackPressed() {
-        backToast = Toast.makeText(this, "Semangat Tekan sekali lagi ", Toast.LENGTH_LONG)
+        backToast = Toast.makeText(this, "Tekan Sekali Lagi,SEMANGAT!!", Toast.LENGTH_LONG)
         if (backPressedTime + 2000 > System.currentTimeMillis()) {
             backToast.cancel()
             super.onBackPressed()
