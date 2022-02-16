@@ -1,4 +1,4 @@
-package com.example.silaris
+package com.example.silaris.data
 
 data class ImageData(
     var title : String,

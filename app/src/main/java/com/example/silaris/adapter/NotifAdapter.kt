@@ -9,6 +9,7 @@ import com.example.silaris.data.Notif
 import com.example.silaris.databinding.GridItemBinding
 import com.example.silaris.databinding.GridItemNotifBinding
 import com.example.silaris.ui.DetailActivity
+import com.example.silaris.ui.DetailNotifActivity
 
 class NotifAdapter(private val listNotif: ArrayList<Notif>) :
     RecyclerView.Adapter<NotifAdapter.MyViewHolder>(){
@@ -25,6 +26,11 @@ class NotifAdapter(private val listNotif: ArrayList<Notif>) :
                 textItemJudulNotif.text = notif
                 textItemDetailNotif.text = desc
                 Glide.with(imgItemNotif.context).load(gambar).into(imgItemNotif)
+                holder.itemView.setOnClickListener {
+                    val intent = Intent(it.context, DetailNotifActivity::class.java)
+                    intent.putExtra(DetailNotifActivity.DATA_PESAN, listNotif[position])
+                    it.context.startActivity(intent)
+                }
             }
         }
     }
