@@ -32,5 +32,20 @@ class TrolliFragment : Fragment() {
         binding.minBtn.setOnClickListener {
             binding.numberTrolli.text = (binding.numberTrolli.text.toString().toInt()-1).toString()
         }
+
+        binding.addBtn1.setOnClickListener {
+            binding.numberTrolli1.text = (binding.numberTrolli.text.toString().toInt()+1).toString()
+        }
+        binding.minBtn1.setOnClickListener {
+            binding.numberTrolli1.text = (binding.numberTrolli.text.toString().toInt()-1).toString()
+        }
+
+        binding.addBtn2.setOnClickListener {
+            binding.numberTrolli2.text = (binding.numberTrolli.text.toString().toInt()+1).toString()
+        }
+        binding.minBtn2.setOnClickListener {
+            binding.numberTrolli2.text = (binding.numberTrolli.text.toString().toInt()-1).toString()
+        }
+
     }
 }
