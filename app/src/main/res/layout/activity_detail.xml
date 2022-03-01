@@ -23,7 +23,7 @@
                 android:layout_marginStart="0dp"
                 android:layout_marginEnd="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/img_item1" />
+                android:src="" />
 
             <ImageButton
                 android:id="@+id/btn_back_detail"
@@ -127,17 +127,18 @@
 
 
         </RelativeLayout>
+
         <Button
             android:id="@+id/btn_detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@id/toko"
             android:layout_marginStart="16dp"
             android:layout_marginTop="70dp"
             android:layout_marginEnd="16dp"
             android:background="@color/purple_700"
             android:text="Tambah ke keranjang"
-            android:textStyle="bold"
-            android:layout_below="@id/toko"/>
+            android:textStyle="bold" />
 
     </RelativeLayout>
 
