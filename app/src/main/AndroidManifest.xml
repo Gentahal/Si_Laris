@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SiLaris">
         <activity
+            android:name=".ui.DetailNotifActivity"
+            android:exported="false" />
+        <activity
             android:name=".SplashScreenActivity"
             android:exported="true"
             android:theme="@style/Theme.SiLaris.SplashTheme">
@@ -25,7 +28,6 @@
         <activity
             android:name=".masuk.SignUpActivity"
             android:exported="false" />
-
         <activity
             android:name=".ui.ProfileActivity"
             android:exported="true" />
@@ -33,11 +35,10 @@
             android:name=".ui.DetailActivity"
             android:exported="false"
             android:theme="@style/Theme.SiLaris.NoActionBro" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:windowSoftInputMode="adjustPan"/>
+            android:windowSoftInputMode="adjustPan" />
     </application>
 
 </manifest>
