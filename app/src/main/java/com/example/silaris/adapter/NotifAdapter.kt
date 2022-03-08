@@ -6,10 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.silaris.data.Notif
-import com.example.silaris.databinding.GridItemBinding
 import com.example.silaris.databinding.GridItemNotifBinding
-import com.example.silaris.ui.DetailActivity
-import com.example.silaris.ui.DetailNotifActivity
 
 class NotifAdapter(private val listNotif: ArrayList<Notif>) :
     RecyclerView.Adapter<NotifAdapter.MyViewHolder>(){

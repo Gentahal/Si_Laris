@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.silaris.R
 import com.example.silaris.adapter.NotifAdapter
 import com.example.silaris.data.DataNotif
 import com.example.silaris.databinding.FragmentNotifBinding
