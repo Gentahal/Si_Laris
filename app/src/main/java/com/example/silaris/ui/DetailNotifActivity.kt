@@ -2,8 +2,6 @@ package com.example.silaris.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.silaris.R
-import com.example.silaris.data.DataNotif
 import com.example.silaris.data.Notif
 import com.example.silaris.databinding.ActivityDetailNotifBinding
 
