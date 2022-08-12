@@ -12,6 +12,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.silaris.databinding.ActivityMainBinding
+import com.example.silaris.ui.ProfileActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 

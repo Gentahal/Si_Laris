@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.silaris.data.Baju
 import com.example.silaris.databinding.GridItemBinding
+import com.example.silaris.ui.DetailActivity
 
 
 class BajuAdapter(private val listBaju: ArrayList<Baju>) :
