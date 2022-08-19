@@ -8,7 +8,14 @@
         android:id="@+id/navigation_home"
         android:name="com.example.silaris.ui.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_setting2"
+            app:destination="@id/navigation_setting" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_notification"
+            app:destination="@id/navigation_notification" />
+    </fragment>
     <fragment
         android:id="@+id/navigation_setting"
         android:name="com.example.silaris.ui.TrolliFragment"
