@@ -23,10 +23,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".masuk.LoginActivity"
+            android:name="com.example.silaris.masuk.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".masuk.SignUpActivity"
+            android:name="com.example.silaris.masuk.SignUpActivity"
             android:exported="false" />
         <activity
             android:name=".ui.ProfileActivity"
